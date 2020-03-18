@@ -41,3 +41,6 @@ nmap <F1> :w<CR>
 
 " ESC, F2 will run black with a line length set to 120
 nmap <F2> :!black -l 120 %<CR>
+
+" ESC, F3 will run PDFLaTeX
+nmap <F3> :!pdflatex --shell-escape %<CR>
